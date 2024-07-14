@@ -56,8 +56,10 @@ class DB
             exit($this->con->error);
         }
 
-        $types = str_repeat("s", count($values));
-        $stmt->bind_param($types, ...$values);
+        if (!empty($values)) {
+            $types = str_repeat("s", count($values));
+            $stmt->bind_param($types, ...$values);
+        }
 
         if (!$stmt->execute()) {
             exit($stmt->error);
