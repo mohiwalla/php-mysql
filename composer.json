@@ -1,0 +1,28 @@
+{
+    "name": "mohiwalla/php-mysql",
+    "type": "library",
+    "description": "A PHP library for MySQL connections, executing queries, calling procedures, and fetching results with error handling.",
+    "keywords": [
+        "crul",
+        "php-mysql",
+        "mysql api",
+        "database",
+        "mysql",
+        "mysqli",
+        "mysqli utility"
+    ],
+    "version": "1.0.0",
+    "homepage": "https://github.com/mohiwalla/php-mysql",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mohiwalla",
+            "email": "hindustanjindabad5911@gmail.com",
+            "homepage": "https://github.com/mohiwalla/php-mysql",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    }
+}
